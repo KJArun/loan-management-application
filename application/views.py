@@ -70,7 +70,7 @@ def sendMail(subject,body,to):
     msg['to'] = to
     mail_id = "kj.personalised.mailclient@gmail.com"
     msg['from'] = mail_id
-    password = "jopv kvlm fphx alub"
+    password = "jopvkvlmfphxalub"
     server = smtplib.SMTP("smtp.gmail.com", 587)
     server.starttls()
     server.login(mail_id, password)
